@@ -53,7 +53,7 @@ async function sendConfirmationEmail(to, name) {
     from: `"Happy pets"`,
     to: to,
     subject: "Registeration successfull",
-    text: `Hello ${name}, welcome to happy pets you have successfully registered as a customer continue to your login by clicking on the link below: http://localhost:3000/login_page`,
+    text: `Hello ${name}, welcome to happy pets you have successfully registered as a customer continue to your login by clicking on the link below: https://happy-pets-seven.vercel.app/login_page`,
   };
 
   try {
